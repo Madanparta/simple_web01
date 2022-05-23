@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+button{
+    background-color: #c15355;
+    padding: 5px 10px ;
+    border: 0;
+    color: white;
+}
+/* .clearflix::before{
+    content: "";
+    display: block;
+}
+.clearflix::after{
+    clear: both;
+} */
+header{
+    background-color: #c15355;
+    width: 100%;
+    height: 13.75rem;
+}
+.header-01{
+    background-color: #c15355;
+    max-width: 67.5rem;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    /* position: fixed;
+    top: 0%; */
+
+}
+.header-01 h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-left: 4rem;
+    padding: 0.75rem;
+}
+.nav{
+    float: right;
+    margin-top: 1rem;
+    margin-right: 4rem;
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    padding: 0.75rem;
+}
+.nav a:hover{
+    background-color:  #f7afb0;
+}
+.header-02{
+    text-align: center;
+}
+.header-02 h1{
+    font-size: 3.25rem;
+    margin-top: 3rem;
+    color: white;
+}
+.header-02 p{
+    color: white;
+}
+
+/* Body sections... */
+.main{
+    width: 100%;
+    height: 100%;
+}
+article{
+    margin-left: 10px;
+    display: flex;
+    margin: 10px;
+}
+.article-01-div1{
+    width: 40%;
+    justify-content: center;
+    margin: 40px;
+}
+
+.article-01-div1 h3{
+    color: #c15355;
+}
+.article-01-div1 p{
+    color: grey;
+    margin-bottom: 40px;
+}
+.article-01-div2{
+    width: 40%;
+    justify-content: center;
+    margin: 40px;
+}
+.article-01-div2 h3{
+    color: #c15355;
+}
+.article-01-div2 p{
+    color: grey;
+    margin-bottom: 40px;
+}
+.article-01-div3{
+    width: 40%;
+    justify-content: center;
+    margin: 40px;
+}
+.article-01-div3 h3{
+    color: #c15355;
+}
+.article-01-div3 p{
+    color: grey;
+    margin-bottom: 40px;
+}
+
+
+.articl-01{
+    width: 100%;
+    background-color: #c15355;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    display: block;
+    margin: auto;
+}
+.articl-01 h2{
+    margin-bottom: 5px;
+}
+.articl-div-1{
+    display: flex;
+    /* margin: 0px 15px; */
+}
+#air_logo{
+    height: 30px;
+    width: auto;
+    position: relative;
+    top: 63px;
+    left: 63px;
+    background-color: white;
+    border-radius: 5px;
+}
+.img-01{
+    border: 1px solid white;
+    width: 20%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    height: 250px;
+}
+#air_cap01{
+    height: 20px;
+    width: auto;
+    background-color: white;
+}
+#img1{
+    height: 50%;
+    width: auto;
+    border-radius: 50%;
+}
+.img-02{
+    height: 250px;
+    width: 20%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#img2{
+    height: 50%;
+    width: auto;
+    border-radius: 50%;
+}
+.img-03{
+    width: 20%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 250px;
+}
+#img3{
+    height: 50%;
+    width: auto;
+    border-radius: 50%;
+}
+.img-04{
+    width: 20%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 250px;
+}
+#img4{
+    height: 50%;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* arrow not showing */
+.box i{
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 100px;
+    float: right;
+}
+
+.main2{
+    max-width: 67.5rem;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.main2-1 h2{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #c15355;
+    
+}
+.main2-01{
+    width: 400px;
+    position: relative;
+    left: 70px;
+}
+.main2-1 p{
+    text-align: center;
+    color: #c15355;
+}
+.main2-02{
+    width: 400px;
+    position: relative;
+    left: 180px;
+}
+.frame{
+    margin-top: 80px;
+    display: flex;
+}
+.main2-01 h3{
+    color: #c15355;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.main2-01 p{
+    text-align: justify;
+    color: grey;
+}
+.main2-02 h3{
+    color: #c15355;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.main2-02 p{
+    text-align: justify;
+    color: grey;
+}
+
+/* Footer */
+hr{
+    max-width: 67.5rem;
+    margin: 0 auto;
+}
+footer{
+    max-width: 67.5rem;
+    /* display: block; */
+    margin: 0 auto;
+}
+footer p{
+    margin-top: 20px;
+    font-weight: lighter;
+    color: grey;
+}
+ul{
+    display: flex;
+    float: right;
+}
+img{
+    height: 17px;
+    width: auto;
+ 
+}
+ul li{
+    padding: 5px;
+    list-style: none;
+    position: relative;
+    bottom: 20px;
+ 
+}
